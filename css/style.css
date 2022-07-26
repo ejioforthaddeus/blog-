@@ -1,0 +1,31 @@
+.bg1{
+    height: 200vh;
+    margin-top: -50px;
+    transform: rotate(-15deg);
+    margin-left: -10px;
+    z-index: 10;
+}
+@media(max-width:767px){
+    .bg1{display: none;}
+    .picarea{background-color: black;
+    width: 100vw;}
+}
+.picarea{
+    position: absolute;
+    height: 100vh;
+    top: 0%;
+ padding: 5%;
+ z-index: 1000;
+ 
+}
+.imgarea{
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 12%;
+    overflow: hidden;
+    background-color: black;
+}
+.m7{margin-left: 30%;}
