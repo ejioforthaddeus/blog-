@@ -1,0 +1,127 @@
+.bg1{
+    height: 200vh;
+    margin-top: -50px;
+    transform: rotate(-15deg);
+    margin-left: -10px;
+    z-index: 10;
+}
+@media(max-width:767px){
+    .bg1{display: none;}
+    .picarea{background-color:black;
+    width: 100vw;}
+    .w-100{
+    border-radius: 15%;} 
+    .nav-links{
+        background-color: rgb(117, 117, 5);
+        width: 70vw;
+        display: flex;
+        padding: 1 0.1vw;
+        padding-top: 2px;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        font-weight: 600;
+        margin-top: -100%;
+        margin-left: -20%;
+        height: 3cm;
+        z-index: 10000;
+        display: flex !important;
+    }
+    
+    .nav-links li a{
+        text-decoration: none;
+        transition: all ease-in-out 350ms;
+        color: white;
+    }
+    
+    .nav-links li a:hover{
+        color:rgb(221, 236, 2);
+        background-color: rgb(14, 13, 13);
+        padding: 10px;
+        border-radius: 50px;
+    }
+    
+    .nav-links li{
+        position:relative;
+    }
+    
+    .nav-links li a:hover::before{
+        width: 80%;
+    }
+    .btn{display: none;}
+    
+}
+.nav-links{
+    background-color: rgb(117, 117, 5);
+    width: 100vw;
+    display: flex;
+    padding: 1 0.1vw;
+    padding-top: 2px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+    margin-top: -3%;
+    margin-left: -10%;
+    height: 3cm;
+    z-index: 10000;
+    
+}
+
+.nav-links li a{
+    text-decoration: none;
+    transition: all ease-in-out 350ms;
+    color: white;
+    border: 2px dotted rgb(221, 5, 5);
+    border-radius: 20%;
+}
+
+.nav-links li a:hover{
+    color:rgb(216, 212, 6);
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links li a:hover::before{
+    width: 80%;
+}
+.picarea{
+    position: absolute;
+    height: 100vh;
+    top: 0%;
+ padding: 5%;
+ z-index: 1000;
+ 
+}
+.imgarea{
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 12%;
+    overflow: hidden;
+    background-color: black;
+}
+.m7{margin-left: 30%;}
+.btn{margin-left: 30%;}
+
+/*Navigation Icon Styling*/
+.nav-links{display: none;}
+.p1{text-align: center;}
+.text-danger{text-shadow: 2px 1px darkorange !important;
+    font-family: Lobster Two;
+    font-weight: 700;
+    line-height: 22.4px;
+color: rgb(245, 209, 7) !important;}
+
+
+
+
+
